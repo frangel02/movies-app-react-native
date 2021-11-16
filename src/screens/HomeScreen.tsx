@@ -6,7 +6,7 @@ import {MoviePoster} from '../components/MoviePoster';
 import {useMovies} from '../hooks/useMovies';
 import Carousel from 'react-native-snap-carousel';
 import {FlatList, ScrollView} from 'react-native-gesture-handler';
-import { HorizontalSlider } from '../components/HorizontalSlider';
+import { HorizontalSlider } from '../components/horizontalSlider';
 
 const {width: windowWith} = Dimensions.get('window');
 

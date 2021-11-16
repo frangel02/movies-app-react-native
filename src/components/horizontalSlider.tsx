@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FlatList, Text, View } from 'react-native';
 import { Movie } from '../interfaces/movieInterface';
 
@@ -20,7 +20,7 @@ export const HorizontalSlider = ({ title, movies }: Props) => {
         }}>
 
             {
-                title && <Text style={{ fontSize: 30, fontWeight: 'bold', marginLeft: 10 }}>{ title }</Text>
+                title && <Text style={{ fontSize: 30, color:'gray', fontWeight: 'bold', marginLeft: 10 }}>{ title }</Text>
             }
 
             <FlatList
